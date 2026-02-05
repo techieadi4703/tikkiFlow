@@ -32,3 +32,8 @@ typing_extensions==4.14.1
 urllib3==2.5.0
 uvicorn==0.35.0
 websockets==15.0.1
+fastapi
+uvicorn[standard]
+python-dotenv
+sqlalchemy
+psycopg2-binary

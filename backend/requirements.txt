@@ -2,21 +2,22 @@
 fastapi
 uvicorn[standard]
 
-# Environment variables
+# Env
 python-dotenv
 
 # Database
 sqlalchemy
 psycopg2-binary
 
-# Auth / Security
+# Auth / security
 python-jose
 passlib[bcrypt]
 cryptography
+clerk-backend-api
 
 # HTTP / async
 httpx
 requests
 
-# Forms / uploads (FastAPI dependency)
+# Forms
 python-multipart

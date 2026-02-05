@@ -2,7 +2,7 @@
 fastapi
 uvicorn[standard]
 
-# Env
+# Environment variables
 python-dotenv
 
 # Database
@@ -19,5 +19,8 @@ clerk-backend-api
 httpx
 requests
 
-# Forms
+# Webhooks (Clerk uses Svix)
+svix
+
+# Forms / uploads
 python-multipart
